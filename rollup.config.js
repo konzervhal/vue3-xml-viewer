@@ -7,7 +7,8 @@ export default {
   input: 'src/main.js',
   output: [{
       format: 'esm',
-      file: 'dist/index.js'
+      file: 'dist/index.js',
+      assetFileNames: '[name][extname]',
   }],
   plugins:[
     css({minify:true}),
