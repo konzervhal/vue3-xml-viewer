@@ -252,6 +252,11 @@ rollup-plugin-import-css@^3.2.1:
   dependencies:
     "@rollup/pluginutils" "^5.0.2"
 
+rollup-plugin-peer-deps-external@^2.2.4:
+  version "2.2.4"
+  resolved "https://registry.npmjs.org/rollup-plugin-peer-deps-external/-/rollup-plugin-peer-deps-external-2.2.4.tgz"
+  integrity sha512-AWdukIM1+k5JDdAqV/Cxd+nejvno2FVLVeZ74NKggm3Q5s9cbbcOgUPGdbxPi4BXu7xGaZ8HG12F+thImYu/0g==
+
 rollup-plugin-vue@^6.0.0:
   version "6.0.0"
   resolved "https://registry.npmjs.org/rollup-plugin-vue/-/rollup-plugin-vue-6.0.0.tgz"
@@ -268,7 +273,7 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@^1.20.0||^2.0.0||^3.0.0, "rollup@^2.x || ^3.x", "rollup@^2.x.x || ^3.x.x", rollup@^3.21.6:
+rollup@*, rollup@^1.20.0||^2.0.0||^3.0.0, "rollup@^2.x || ^3.x", "rollup@^2.x.x || ^3.x.x", rollup@^3.21.6:
   version "3.28.1"
   resolved "https://registry.npmjs.org/rollup/-/rollup-3.28.1.tgz"
   integrity sha512-R9OMQmIHJm9znrU3m3cpE8uhN0fGdXiawME7aZIpQqvpS/85+Vt1Hq1/yVIcYfOmaQiHjvXkQAoJukvLpau6Yw==

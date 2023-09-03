@@ -7,4 +7,5 @@ const plugin = {
   }
 }
 
+export {XmlViewer}
 export default plugin
