@@ -1,5 +1,5 @@
 <template>
-    <span>
+    <span :class="{'d-flex flex-wrap': attributes.length}">
         <XmlAttribute v-for="(attribute, index) in attributes" :key="index" :attribute="attribute" />
     </span>
 </template>
