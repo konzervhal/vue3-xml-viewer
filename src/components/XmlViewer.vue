@@ -8,7 +8,7 @@ import XmlElement from './XmlElement.vue'
 
 import { defineComponent, ref, watch } from 'vue'
 
-export default defineComponent({
+export default ({
     components: {
         XmlElement
     },

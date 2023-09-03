@@ -15,3 +15,56 @@
     margin: 0;
     padding: 0;
 }
+
+.margin-left-sm {
+    margin-left: 8px;
+}
+
+.assignment {
+    color: var(--xml-viewer-assignment-color);
+}
+
+.quote {
+    color: var(--xml-viewer-quote-color);
+}
+
+.xml-element {
+    white-space: nowrap;
+    font-size: 14px;
+    font-family: Consolas, Menlo, Courier, monospace;
+}
+
+.bracket {
+    color: var(--xml-viewer-bracket-color);
+}
+
+.element-name {
+    color: var(--xml-viewer-element-name-color);
+}
+
+.bracket, .dots {
+    color: var(--xml-viewer-bracket-color);
+}
+
+.caret {
+    color: var(--xml-viewer-bracket-color);
+    fill: var(--xml-viewer-bracket-color);
+}
+
+.child-elements>div {
+    margin-left: 20px;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.attribute-name {
+    color: var(--xml-viewer-attribute-name-color);
+}
+
+.attribute-value {
+    color: var(--xml-viewer-attribute-value-color);
+    padding: 0;
+    margin: 0;
+}
