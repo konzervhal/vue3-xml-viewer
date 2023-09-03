@@ -11,9 +11,9 @@
 import XmlAttributeName from './XmlAttributeName.vue'
 import XmlAttributeValue from './XmlAttributeValue.vue'
 
-import { defineComponent, computed } from 'vue'
+import { computed } from 'vue'
 
-export default defineComponent({
+export default {
     name: 'XmlElement',
     components: {
         XmlAttributeName,
@@ -31,5 +31,5 @@ export default defineComponent({
             value
         }
     }
-})
+}
 </script>

@@ -6,9 +6,9 @@
     </div>
 </template>
 <script>
-import { defineComponent, computed } from 'vue'
+import { computed } from 'vue'
 
-export default defineComponent({
+export default {
     props: {
         node: Text
     },
@@ -19,5 +19,5 @@ export default defineComponent({
             content
         }
     }
-})
+}
 </script>

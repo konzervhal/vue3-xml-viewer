@@ -6,9 +6,9 @@
 <script>
 import XmlElement from './XmlElement.vue'
 
-import { defineComponent, ref, watch } from 'vue'
+import { ref, watch } from 'vue'
 
-export default ({
+export default {
     components: {
         XmlElement
     },
@@ -40,5 +40,5 @@ export default ({
         }
 
     }
-})
+}
 </script>

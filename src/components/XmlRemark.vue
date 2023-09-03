@@ -7,9 +7,9 @@
     </div>
 </template>
 <script>
-import { defineComponent, computed } from 'vue'
+import { computed } from 'vue'
 
-export default defineComponent({
+export default {
     props: {
         remark: Comment
     },
@@ -20,5 +20,5 @@ export default defineComponent({
             content
         }
     }
-})
+}
 </script>

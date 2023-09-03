@@ -30,7 +30,7 @@
     </div>
 </template>
 <script>
-import { defineComponent, ref, computed } from 'vue'
+import { ref, computed } from 'vue'
 import XmlElementName from './XmlElementName.vue'
 import XmlElementContent from './XmlElementContent.vue'
 import XmlAttributeLine from './XmlAttributeLine.vue'
@@ -39,7 +39,7 @@ import XmlRemark from './XmlRemark.vue'
 import CaretDown from './CaretDown.vue'
 import CaretRight from './CaretRight.vue'
 
-export default defineComponent({
+export default {
     name: 'XmlElement',
     components: {
         XmlElementName,
@@ -80,5 +80,5 @@ export default defineComponent({
             toggleCollapsed
         }
     }
-})
+}
 </script>

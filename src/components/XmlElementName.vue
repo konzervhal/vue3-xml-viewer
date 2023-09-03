@@ -5,9 +5,8 @@
     </span>
 </template>
 <script>
-import { defineComponent } from 'vue'
 
-export default defineComponent({
+export default {
     props: {
         name: String,
         closing: Boolean
@@ -22,5 +21,5 @@ export default defineComponent({
         }
     },
     emits: ['click']
-})
+}
 </script>
