@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="content">
+        <div class="element-content">
             {{ content }}
         </div>
     </div>
@@ -21,8 +21,3 @@ export default defineComponent({
     }
 })
 </script>
-<style scoped>
-.content {
-    color: var(--xml-viewer-element-content-color);
-}
-</style>

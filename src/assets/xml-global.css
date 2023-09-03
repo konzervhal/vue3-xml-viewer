@@ -1,0 +1,17 @@
+.element-content{
+     color: var(--xml-viewer-element-content-color);
+ }
+.cdata-content {
+    color: var(--xml-viewer-cdata-content-color);
+}
+.remark-content {
+   color: var(--xml-viewer-remark-content-color);
+}
+.inline {
+    display: inline;
+}
+
+.no-margin-padding {
+    margin: 0;
+    padding: 0;
+}

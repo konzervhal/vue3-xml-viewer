@@ -31,11 +31,11 @@
 </template>
 <script>
 import { defineComponent, ref, computed } from 'vue'
-import XmlElementName from './XmlElementName'
-import XmlElementContent from './XmlElementContent'
-import XmlAttributeLine from './XmlAttributeLine'
-import XmlCDataSection from './XmlCDataSection'
-import XmlRemark from './XmlRemark'
+import XmlElementName from './XmlElementName.vue'
+import XmlElementContent from './XmlElementContent.vue'
+import XmlAttributeLine from './XmlAttributeLine.vue'
+import XmlCDataSection from './XmlCDataSection.vue'
+import XmlRemark from './XmlRemark.vue'
 import CaretDown from './CaretDown.vue'
 import CaretRight from './CaretRight.vue'
 
@@ -82,27 +82,3 @@ export default defineComponent({
     }
 })
 </script>
-<style scoped>
-.xml-element {
-    white-space: nowrap;
-    font-size: 14px;
-    font-family: Consolas, Menlo, Courier, monospace;
-}
-
-.bracket, .dots {
-    color: var(--xml-viewer-bracket-color);
-}
-
-.caret {
-    color: var(--xml-viewer-bracket-color);
-    fill: var(--xml-viewer-bracket-color);
-}
-
-.child-elements>div {
-    margin-left: 20px;
-}
-
-.clickable {
-    cursor: pointer;
-}
-</style>

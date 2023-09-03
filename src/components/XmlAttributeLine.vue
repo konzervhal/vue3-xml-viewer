@@ -4,7 +4,7 @@
     </span>
 </template>
 <script>
-import XmlAttribute from './XmlAttribute'
+import XmlAttribute from './XmlAttribute.vue'
 
 import { defineComponent } from 'vue'
 

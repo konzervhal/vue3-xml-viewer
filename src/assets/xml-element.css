@@ -1,0 +1,22 @@
+.xml-element {
+    white-space: nowrap;
+    font-size: 14px;
+    font-family: Consolas, Menlo, Courier, monospace;
+}
+
+.bracket, .dots {
+    color: var(--xml-viewer-bracket-color);
+}
+
+.caret {
+    color: var(--xml-viewer-bracket-color);
+    fill: var(--xml-viewer-bracket-color);
+}
+
+.child-elements>div {
+    margin-left: 20px;
+}
+
+.clickable {
+    cursor: pointer;
+}

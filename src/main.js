@@ -1,5 +1,10 @@
-import {createApp} from 'vue'
-import App from './App.vue'
-import './assets/_variables.css';
+import './assets/_variables.css'
+import XmlViewer from './components/XmlViewer.vue'
 
-createApp(App).mount('#app');
+const plugin = {
+  install (Vue) {
+    Vue.component("XmlViewer", XmlViewer);
+  }
+}
+
+export default plugin

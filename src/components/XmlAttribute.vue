@@ -8,8 +8,8 @@
     </span>
 </template>
 <script>
-import XmlAttributeName from './XmlAttributeName'
-import XmlAttributeValue from './XmlAttributeValue'
+import XmlAttributeName from './XmlAttributeName.vue'
+import XmlAttributeValue from './XmlAttributeValue.vue'
 
 import { defineComponent, computed } from 'vue'
 
@@ -33,21 +33,3 @@ export default defineComponent({
     }
 })
 </script>
-<style scoped>
-.no-margin-padding {
-    margin: 0;
-    padding: 0;
-}
-
-.margin-left-sm {
-    margin-left: 8px;
-}
-
-.assignment {
-    color: var(--xml-viewer-assignment-color);
-}
-
-.quote {
-    color: var(--xml-viewer-quote-color);
-}
-</style>

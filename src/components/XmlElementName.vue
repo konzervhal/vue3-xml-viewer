@@ -24,12 +24,3 @@ export default defineComponent({
     emits: ['click']
 })
 </script>
-<style scoped>
-.bracket {
-    color: var(--xml-viewer-bracket-color);
-}
-
-.element-name {
-    color: var(--xml-viewer-element-name-color);
-}
-</style>

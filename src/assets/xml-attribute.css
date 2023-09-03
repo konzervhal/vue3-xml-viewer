@@ -1,0 +1,11 @@
+.margin-left-sm {
+    margin-left: 8px;
+}
+
+.assignment {
+    color: var(--xml-viewer-assignment-color);
+}
+
+.quote {
+    color: var(--xml-viewer-quote-color);
+}

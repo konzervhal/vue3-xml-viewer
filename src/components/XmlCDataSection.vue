@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="content">
+        <div class="cdata-content">
             <span>&lt;![CDATA[</span>
             <pre class="inline no-margin-padding">{{ content }}</pre><span>]]&gt;</span>
         </div>
@@ -22,17 +22,3 @@ export default defineComponent({
     }
 })
 </script>
-<style scoped>
-.content {
-    color: var(--xml-viewer-cdata-content-color);
-}
-
-.inline {
-    display: inline;
-}
-
-.no-margin-padding {
-    margin: 0;
-    padding: 0;
-}
-</style>

@@ -12,10 +12,3 @@ export default defineComponent({
     }
 })
 </script>
-<style scoped>
-.attribute-value {
-    color: var(--xml-viewer-attribute-value-color);
-    padding: 0;
-    margin: 0;
-}
-</style>

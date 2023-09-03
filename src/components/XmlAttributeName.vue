@@ -12,8 +12,3 @@ export default defineComponent({
     }
 })
 </script>
-<style scoped>
-.attribute-name {
-    color: var(--xml-viewer-attribute-name-color);
-}
-</style>

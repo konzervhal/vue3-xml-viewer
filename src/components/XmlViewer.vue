@@ -4,7 +4,7 @@
     </div>
 </template>
 <script>
-import XmlElement from './XmlElement'
+import XmlElement from './XmlElement.vue'
 
 import { defineComponent, ref, watch } from 'vue'
 
