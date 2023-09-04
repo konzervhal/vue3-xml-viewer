@@ -23,6 +23,7 @@
 }
 
 .element-content{
+    white-space: normal;
      color: var(--xml-viewer-element-content-color);
  }
 .cdata-content {
